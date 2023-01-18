@@ -20,7 +20,7 @@
         item.className = "item";
         text.textContent = input;
 
-        checkIcon.className = "fa-solid fa-badge-check";
+        checkIcon.className = "fa-solid fa-square-check";
         checkIcon.style.color = "lightgray";
         checkIcon.addEventListener("click", () => {
             checkIcon.style.color = "limegreen";

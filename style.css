@@ -5,9 +5,10 @@
   }
   
   body{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Amaranth', sans-serif;
     background-image: linear-gradient(to right, #E22865, #37ADCD);
     color: #fff;
+    font-weight: bold;
   }
   
   .container{
@@ -35,7 +36,7 @@
   .user_input input{
     width: 75%;
     outline: none;
-    padding: 8px;
+    padding: 15px;
     border: 1px solid lightgray;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -53,7 +54,7 @@
   
   .user_input button{
     cursor: pointer;
-    padding: 8px;
+    padding: 15px;
     width: fit-content;
     color: black;
     transition: 1s;
@@ -79,7 +80,7 @@
     justify-content: space-between;
     width: 100%;
     height: auto;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 1rem;
     color: #454545;
     margin-top:10px;
@@ -102,11 +103,6 @@
   .item i{
     cursor: pointer;
     margin: 0 5px;
-  }
-
-  .fas-fa-dog::before {
-    content: "\f14a";
-
   }
   
   @media(max-width:1280px){
