@@ -41,4 +41,3 @@
         document.querySelector("#input").value = "";
 
     }
-
