@@ -113,17 +113,22 @@
     flex-wrap: wrap;
   }
 
+  .imagem {
+    align-self: center;
+  }
+
   .titulo__video {
     font-family: 'Amaranth', sans-serif;
     margin: 30px;
     font-size: 2rem;
     color: #fff;
     font-weight: bold;
+    text-align: center;
   }
 
   .video {
-    margin: 20px;
-    list-style: none;
+    display: inline;
+    justify-content: space-around;
   }
 
 .rodape {
@@ -131,7 +136,7 @@
 }
 
 .rodape__texto {
-    color: black;
+    color: white;
     font-family: 'Amaranth', sans-serif;
     font-size: 16px;
     margin-bottom: 1em;
@@ -146,6 +151,11 @@
     .secundario {
       display: flex;
       flex-wrap: wrap;
+    }
+
+    .video {
+      display: flex;
+      flex-wrap: wrap; 
     }
   
   @media(max-width:768px){
@@ -185,4 +195,5 @@
     .user_input input{
       width: 60%;
     }
+
   }

@@ -23,7 +23,7 @@
         checkIcon.className = "fa-solid fa-square-check";
         checkIcon.style.color = "lightgray";
         checkIcon.addEventListener("click", () => {
-            checkIcon.style.color = "limegreen";
+        checkIcon.style.color = "limegreen";
         })
         div.appendChild(checkIcon);
 
