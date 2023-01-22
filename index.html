@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/svg" href="img/paw.svg">
     <title>DOG BUCKET LIST</title>
 </head>
@@ -18,24 +19,44 @@
     <main>
       <header>
         <div class="container">
-          <div id="header">
-            <h2><i class="fas fa-dog"></i></i> Dog Bucket List</h2>
-            <div class="user_input">
-              <input type="text" id="input" placeholder="GOSTARIA DE..."><button id="add_item">Incluir</button>
-            </div>
-          </div>
-        </div>
+            <h2 class="titulo__pagina"><i class="fas fa-dog"></i></i> Dog Bucket List</h2>                      
+          </div>  
       </header>
+
+      <section class="bucket">
+        <div>
+        <p class="subtitulo">O que é uma Bucket List?</p>
+            <p class="texto">A Bucket List é uma lista de todas as coisas que você quer aprender, ver, conhecer e experimentar durante sua vida!<br/>
+            E essa lista é muito mais especial, porque você vai poder listar o que você quer fazer com o seu melhor amigo de 4 patas para se divertir.<br/>
+            Aqui embaixo tem uma lista de ideias para te inspirar a montar a sua.<br/>
+            Boa diversão!
+            </p>
+          </div>
+          <div class="lista__exemplo">
+            <ul>
+              <li class="item exemplo">X<i class="fa-solid fa-square-check"></i></li>
+              <li class="item exemplo">Y<i class="fa-solid fa-square-check"></i></li>
+              <li class="item exemplo">W<i class="fa-solid fa-square-check"></i></li>
+              <li class="item exemplo">Z<i class="fa-solid fa-square-check"></i></li>
+            </ul>
+            <ul>
+              <li class="item exemplo">X<i class="fa-solid fa-square-check"></i></li>
+              <li class="item exemplo">Y<i class="fa-solid fa-square-check"></i></li>
+              <li class="item exemplo">W<i class="fa-solid fa-square-check"></i></li>
+              <li class="item exemplo">Z<i class="fa-solid fa-square-check"></i></li>
+            </ul>
+          </div>
+      </section>
       
       <section>
+        <div class="container">
+          <h3 class="titulo__bucket">Minha Dog Bucket List</h>
+          <div class="user_input">
+            <input type="text" id="input" placeholder="GOSTARIA DE..."><button id="add_item">Incluir</button>
+          </div>
+      </div>
         <div class="container secundario">
           <div id="to_do_list">
-            <ul id="list">
-              <li class="item">X<i class="fa-solid fa-square-check"></i><i class="fa-solid fa-trash-can"></i></li>
-              <li class="item">Y<i class="fa-solid fa-square-check"></i><i class="fa-solid fa-trash-can"></i></li>
-              <li class="item">W<i class="fa-solid fa-square-check"></i><i class="fa-solid fa-trash-can"></i></li>
-              <li class="item">Z<i class="fa-solid fa-square-check"></i><i class="fa-solid fa-trash-can"></i></li>
-            </ul>
           </div>
           <img class="imagem" src="img/dog.png">
         </div>
