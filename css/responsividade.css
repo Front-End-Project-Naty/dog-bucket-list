@@ -1,0 +1,90 @@
+@media(max-width:1280px){
+    .container {
+      width: 100%;
+    }
+
+    .secundario {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .lista__exemplo {
+      display: block;
+    }
+  }
+  
+  @media(max-width:768px){
+    .container{
+      width: 95%;
+    }
+
+    .lista__exemplo {
+      width: 500px;
+      display: block;
+    }
+    
+    #header{
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+    }
+  
+    #header h2{
+      margin: 10px 0;
+    }
+
+  
+    .user_input{
+      width: 100%;
+    }
+  
+    #to_do_list{
+      width: 100%;
+    }
+
+    .video {
+      display: flex;
+      flex-wrap: wrap; 
+      margin: 0 auto;
+      width: 500px;
+    }
+  }    
+  
+  @media(max-width:480px){
+    .user_input input{
+      width: 74%;
+    }
+  
+    #lista {
+      width: 480px;
+      margin: auto;
+    }
+
+    .foto {
+      margin: 0 auto;
+    }
+
+    .video {
+      width: 300px;
+    }
+
+    .imagem {
+      margin: 0 auto;
+      width: 300px;
+    }
+  }
+
+    
+  @media(max-width:320px){
+    .user_input input{
+      width: 60%;
+    }
+
+    .foto {
+      margin: 0 auto;
+      height: 240px;
+    }
+
+  }
+  

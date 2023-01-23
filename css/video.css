@@ -1,0 +1,15 @@
+.titulo__video {
+    color: white;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .video {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
