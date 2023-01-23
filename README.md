@@ -3,14 +3,14 @@
 <h1 align="center">DOG BUCKET LIST</h1>
 </p>
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM+ANDAMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
 
 ## Descrição do projeto 
 
 <p align="justify">
-  Em construção
+  Projeto no estilo de uma lista de tarefas (to do list), mas para colocar uma lista de desejos para fazer durante a vida com seu pet. Foi desenvolvido com as ferramentas JavaScript, HTML e CSS.
 
 </p>
 
@@ -24,7 +24,7 @@
 
 ## Acesso ao projeto
 
-Você pode acessar em: 
+Você pode acessar em: https://natyaith.github.io/dog-bucket-list/
 
 ## Desenvolvedora
 
