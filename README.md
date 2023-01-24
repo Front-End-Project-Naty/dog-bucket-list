@@ -30,3 +30,4 @@ Você pode acessar em: https://natyaith.github.io/dog-bucket-list/
 
 Feito com ❤️ por Natalia Aith 👋🏽 [Entre em contato!](https://www.linkedin.com/in/natalia-aith)
 
+**crédito da imagem - "Designed by catalyststuff / Freepik"
